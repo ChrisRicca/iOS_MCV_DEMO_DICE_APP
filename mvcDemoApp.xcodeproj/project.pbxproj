@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83073CB718FDD7FA00D6D0D9 /* CRDemoApp2_StoryboardManualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83073CB618FDD7FA00D6D0D9 /* CRDemoApp2_StoryboardManualViewController.m */; };
+		83073CB918FDD82F00D6D0D9 /* DiceRoller.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83073CB818FDD82F00D6D0D9 /* DiceRoller.storyboard */; };
 		831601CB18FCED5900399D42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831601CA18FCED5900399D42 /* Foundation.framework */; };
 		831601CD18FCED5900399D42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831601CC18FCED5900399D42 /* CoreGraphics.framework */; };
 		831601CF18FCED5900399D42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831601CE18FCED5900399D42 /* UIKit.framework */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83073CB518FDD7FA00D6D0D9 /* CRDemoApp2_StoryboardManualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDemoApp2_StoryboardManualViewController.h; sourceTree = "<group>"; };
+		83073CB618FDD7FA00D6D0D9 /* CRDemoApp2_StoryboardManualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDemoApp2_StoryboardManualViewController.m; sourceTree = "<group>"; };
+		83073CB818FDD82F00D6D0D9 /* DiceRoller.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DiceRoller.storyboard; sourceTree = "<group>"; };
 		831601C718FCED5900399D42 /* mvcDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvcDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831601CA18FCED5900399D42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		831601CC18FCED5900399D42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +90,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83073CB418FDD60A00D6D0D9 /* 2_StoryboardManual */ = {
+			isa = PBXGroup;
+			children = (
+				83073CB518FDD7FA00D6D0D9 /* CRDemoApp2_StoryboardManualViewController.h */,
+				83073CB618FDD7FA00D6D0D9 /* CRDemoApp2_StoryboardManualViewController.m */,
+				83073CB818FDD82F00D6D0D9 /* DiceRoller.storyboard */,
+			);
+			name = 2_StoryboardManual;
+			sourceTree = "<group>";
+		};
 		831601BE18FCED5900399D42 = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +133,9 @@
 		831601D018FCED5900399D42 /* mvcDemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				8316020718FDCC6500399D42 /* DiceModel */,
 				8316020318FDCAD100399D42 /* 1_StoryboardSegue */,
+				83073CB418FDD60A00D6D0D9 /* 2_StoryboardManual */,
+				8316020718FDCC6500399D42 /* DiceModel */,
 				831601D918FCED5A00399D42 /* CRDemoAppAppDelegate.h */,
 				831601DA18FCED5A00399D42 /* CRDemoAppAppDelegate.m */,
 				831601DC18FCED5A00399D42 /* Main.storyboard */,
@@ -256,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				831601E318FCED5A00399D42 /* Images.xcassets in Resources */,
+				83073CB918FDD82F00D6D0D9 /* DiceRoller.storyboard in Resources */,
 				831601D518FCED5900399D42 /* InfoPlist.strings in Resources */,
 				831601DE18FCED5A00399D42 /* Main.storyboard in Resources */,
 			);
@@ -278,6 +295,7 @@
 			files = (
 				831601DB18FCED5A00399D42 /* CRDemoAppAppDelegate.m in Sources */,
 				8316020A18FDCCA000399D42 /* CRDemoAppDiceModel.m in Sources */,
+				83073CB718FDD7FA00D6D0D9 /* CRDemoApp2_StoryboardManualViewController.m in Sources */,
 				8316020618FDCB3400399D42 /* CRDemoApp1_StoryboardSegueViewController.m in Sources */,
 				831601D718FCED5900399D42 /* main.m in Sources */,
 				831601E118FCED5A00399D42 /* CRDemoAppViewController.m in Sources */,
