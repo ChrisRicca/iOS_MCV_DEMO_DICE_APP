@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>771F68BE-DB16-4B8E-AF8F-424D0A3824E4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mvcDemoApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C91221E5-C8AF-457F-A024-2E891D3D7A67</key>
+		<string>ssh://github.com/ChrisRicca/iOS_MCV_DEMO_DICE_APP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mvcDemoApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C91221E5-C8AF-457F-A024-2E891D3D7A67</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ChrisRicca/iOS_MCV_DEMO_DICE_APP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C91221E5-C8AF-457F-A024-2E891D3D7A67</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C91221E5-C8AF-457F-A024-2E891D3D7A67</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mvcDemoApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

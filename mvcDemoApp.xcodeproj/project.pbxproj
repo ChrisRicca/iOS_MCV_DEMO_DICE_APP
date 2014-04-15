@@ -21,6 +21,8 @@
 		831601EC18FCED5A00399D42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831601CE18FCED5900399D42 /* UIKit.framework */; };
 		831601F418FCED5A00399D42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 831601F218FCED5A00399D42 /* InfoPlist.strings */; };
 		831601F618FCED5A00399D42 /* mvcDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 831601F518FCED5A00399D42 /* mvcDemoAppTests.m */; };
+		8316020618FDCB3400399D42 /* CRDemoApp1_StoryboardSegueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8316020518FDCB3400399D42 /* CRDemoApp1_StoryboardSegueViewController.m */; };
+		8316020A18FDCCA000399D42 /* CRDemoAppDiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8316020918FDCCA000399D42 /* CRDemoAppDiceModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		831601F118FCED5A00399D42 /* mvcDemoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mvcDemoAppTests-Info.plist"; sourceTree = "<group>"; };
 		831601F318FCED5A00399D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		831601F518FCED5A00399D42 /* mvcDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mvcDemoAppTests.m; sourceTree = "<group>"; };
+		8316020418FDCB3400399D42 /* CRDemoApp1_StoryboardSegueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDemoApp1_StoryboardSegueViewController.h; sourceTree = "<group>"; };
+		8316020518FDCB3400399D42 /* CRDemoApp1_StoryboardSegueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDemoApp1_StoryboardSegueViewController.m; sourceTree = "<group>"; };
+		8316020818FDCCA000399D42 /* CRDemoAppDiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDemoAppDiceModel.h; sourceTree = "<group>"; };
+		8316020918FDCCA000399D42 /* CRDemoAppDiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDemoAppDiceModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,8 @@
 		831601D018FCED5900399D42 /* mvcDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				8316020718FDCC6500399D42 /* DiceModel */,
+				8316020318FDCAD100399D42 /* 1_StoryboardSegue */,
 				831601D918FCED5A00399D42 /* CRDemoAppAppDelegate.h */,
 				831601DA18FCED5A00399D42 /* CRDemoAppAppDelegate.m */,
 				831601DC18FCED5A00399D42 /* Main.storyboard */,
@@ -150,6 +158,24 @@
 				831601F218FCED5A00399D42 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8316020318FDCAD100399D42 /* 1_StoryboardSegue */ = {
+			isa = PBXGroup;
+			children = (
+				8316020418FDCB3400399D42 /* CRDemoApp1_StoryboardSegueViewController.h */,
+				8316020518FDCB3400399D42 /* CRDemoApp1_StoryboardSegueViewController.m */,
+			);
+			name = 1_StoryboardSegue;
+			sourceTree = "<group>";
+		};
+		8316020718FDCC6500399D42 /* DiceModel */ = {
+			isa = PBXGroup;
+			children = (
+				8316020818FDCCA000399D42 /* CRDemoAppDiceModel.h */,
+				8316020918FDCCA000399D42 /* CRDemoAppDiceModel.m */,
+			);
+			name = DiceModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				831601DB18FCED5A00399D42 /* CRDemoAppAppDelegate.m in Sources */,
+				8316020A18FDCCA000399D42 /* CRDemoAppDiceModel.m in Sources */,
+				8316020618FDCB3400399D42 /* CRDemoApp1_StoryboardSegueViewController.m in Sources */,
 				831601D718FCED5900399D42 /* main.m in Sources */,
 				831601E118FCED5A00399D42 /* CRDemoAppViewController.m in Sources */,
 			);
@@ -461,6 +489,7 @@
 				831601FB18FCED5A00399D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		831601FC18FCED5A00399D42 /* Build configuration list for PBXNativeTarget "mvcDemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +498,7 @@
 				831601FE18FCED5A00399D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
